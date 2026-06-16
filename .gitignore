@@ -10,13 +10,12 @@ out/
 *.o
 *.obj
 
-# Video files and assets
+# Video files
 *.mov
 *.mp4
 *.avi
 *.mkv
 attempt.mov
-assets/
 
 # System files
 .DS_Store
