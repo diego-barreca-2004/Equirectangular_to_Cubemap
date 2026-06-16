@@ -1,0 +1,21 @@
+# Build directories
+build/
+out/
+.vscode/
+
+# Executables and object files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Video files
+*.mov
+*.mp4
+*.avi
+*.mkv
+attempt.mov
+
+# System files
+.DS_Store
