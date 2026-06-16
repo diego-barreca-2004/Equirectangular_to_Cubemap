@@ -11,21 +11,14 @@ A lightweight C++23 tool using OpenCV to convert spherical (equirectangular) vid
 - **Profiling:** Simple terminal frame-time counter.
 
 ## Cubemap Cross Layout
-```text
-[ Empty ] [ Top    ] [ Empty ] [ Empty ]
-[ Left  ] [ Front  ] [ Right ] [ Back  ]
-[ Empty ] [ Bottom ] [ Empty ] [ Empty ]
-
-```
+![Cubemap Horizontal Cross Layout](assets/cubemap.png)
 
 ## Prerequisites
-
-* **CMake** (>= 3.20)
-* **C++23 Compiler** (GCC 13+, Clang 16+, or MSVC 2022+)
-* **OpenCV 4.x** (with FFMPEG backend)
+- **CMake** (>= 3.20)
+- **C++23 Compiler** (GCC 13+, Clang 16+, or MSVC 2022+)
+- **OpenCV 4.x** (with FFMPEG backend)
 
 ### Install dependencies (Ubuntu/Linux)
-
 ```bash
 sudo apt update && sudo apt install build-essential cmake libopencv-dev
 
